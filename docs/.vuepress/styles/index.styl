@@ -1,0 +1,134 @@
+
+// 评论区颜色重置
+.gt-container
+  .gt-ico-tip
+    &::after
+      content: '。( Win + . ) 或 ( ⌃ + ⌘ + ␣ ) 打开表情'
+      color: #999
+      font-size: .8rem
+  .gt-meta
+    border-color var(--borderColor)!important
+  .gt-comments-null
+    color var(--textColor)
+    opacity .5
+  .gt-header-textarea
+    color var(--textColor)
+    background rgba(180,180,180,0.1)!important
+  .gt-btn
+    border-color $accentColor!important
+    background-color $accentColor!important
+  .gt-btn-preview
+    background-color rgba(255,255,255,0)!important
+    color $accentColor!important
+  a
+    color $accentColor!important
+  .gt-svg svg
+    fill $accentColor!important
+  .gt-comment-content,.gt-comment-admin .gt-comment-content
+    background-color rgba(150,150,150,0.1)!important
+    &:hover
+      box-shadow 0 0 25px rgba(150,150,150,.5)!important
+    .gt-comment-body
+      color var(--textColor)!important
+
+
+// qq徽章
+.qq
+  position: relative;
+.qq::after
+  content: "可撩";
+  background: $accentColor;
+  color:#fff;
+  padding: 0 5px;
+  border-radius: 10px;
+  font-size:12px;
+  position: absolute;
+  top: -4px;
+  right: -35px;
+  transform:scale(0.85);
+
+// demo模块图标颜色
+body .vuepress-plugin-demo-block__wrapper
+  &,.vuepress-plugin-demo-block__display
+    border-color rgba(160,160,160,.3)
+  .vuepress-plugin-demo-block__footer:hover
+    .vuepress-plugin-demo-block__expand::before
+      border-top-color: $accentColor !important;
+      border-bottom-color: $accentColor !important;
+    svg
+      fill: $accentColor !important;
+
+// 全文搜索框
+.suggestions
+  overflow: auto
+  max-height: calc(100vh - 6rem)
+  @media (max-width: 719px) {
+    width: 90vw;
+    min-width: 90vw!important;
+    margin-right: -20px;
+  }
+  .highlight
+    color: $accentColor
+    font-weight: bold
+
+//.home-wrapper {
+  //width: 100%;
+  //height: 100vh;
+  //background: url("/assets/img/bg.png") center center no-repeat;
+  //background-size: 100% 100%;
+  //position: fixed;
+  //position: absolute;
+//}
+body {
+
+}
+.page {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", STXihei, "Microsoft YaHei", SimSun, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+.page>:not(.footer) {
+  box-shadow: 0 0!important;
+}
+.site-name {
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(45deg,#e6a23c,#11a8cd,#cc5595 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-item a, .nav-item span, .nav-item nav-dropdown {
+  //color: #fff;
+}
+
+a[class="repo-link"] {
+  font-weight: 700;
+  background: -webkit-linear-gradient(45deg,#e6a23c,#11a8cd,#cc5595 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tip-info-content {
+  background: -webkit-linear-gradient(45deg,#e6a23c,#11a8cd,#cc5595 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home-wrapper .banner .banner-conent .hero .description {
+  letter-spacing: .2rem;
+  font-size: 1.8rem!important;
+  font-weight: 500;
+  color: #fff;
+  background: -webkit-linear-gradient(45deg,#e6a23c,#11a8cd,#cc5595 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.page h1 {
+  background: -webkit-linear-gradient(45deg,#e6a23c,#11a8cd,#cc5595 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.right-menu-wrapper .right-menu-margin {
+  border-left: 1px solid var(--borderColor);
+}
+
+.right-menu-wrapper .right-menu-title {
+  font-weight: 600;
+}

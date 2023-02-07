@@ -1,0 +1,22 @@
+{
+  "name": "Library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "JunYu",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.8",
+    "@vuepress/plugin-last-updated": "^1.9.8",
+    "@vuepress/plugin-medium-zoom": "^1.9.8",
+    "dayjs": "^1.11.7",
+    "vuepress": "^1.9.8",
+    "vuepress-plugin-one-click-copy": "^1.0.6",
+    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-theme-vdoing": "^1.12.8"
+  },
+  "scripts": {
+    "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    "docs:debug": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs --host 127.0.0.1.nip.io",
+    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+  }
+}

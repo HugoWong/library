@@ -1,0 +1,11 @@
+#Idea
+.idea
+
+#VuePress
+docs\.vuepress\dist
+temp
+cache
+
+#NPM
+node_modules
+yarn.lock
