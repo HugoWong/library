@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[206],{523:function(t,s,n){"use strict";n.r(s);var e=n(3),i=Object(e.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("p",[this._v("西风吹老洞庭波，一夜湘君白发多。")]),this._v(" "),t("p",[this._v("醉后不知天在水，满船清梦压星河。")])])}),[],!1,null,null,null);s.default=i.exports}}]);
