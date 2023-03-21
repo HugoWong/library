@@ -26,6 +26,7 @@ module.exports = [
     {
         text: "游戏娱乐",
         items: [
+            { text: "智能手机", link:"/pages/mi-10/"},
             { text: "上古卷轴", link:"/pages/eso/"},
             { text: "健身记录", link:"/pages/fit-note/"},
         ]
