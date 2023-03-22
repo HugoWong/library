@@ -32,12 +32,10 @@ module.exports = [
         ]
     },
     {
-        text: "未完待续", link:"/more/"
-    },
-    {
         text: "关于", link:"/about/",
         items: [
-            { text: "VuePress 搭建与管理", link:"/pages/vuepress/"},
+            { text: "站点相关", link:"/pages/vuepress/"},
+            { text: "未完待续", link:"/more/"},
         ]
     },
 ];
