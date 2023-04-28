@@ -9,7 +9,7 @@
     "@vuepress/plugin-last-updated": "^1.9.8",
     "@vuepress/plugin-medium-zoom": "^1.9.8",
     "dayjs": "^1.11.7",
-    "vuepress": "^1.9.8",
+    "vuepress": "^1.9.9",
     "vuepress-plugin-one-click-copy": "^1.0.6",
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-theme-vdoing": "^1.12.8"
